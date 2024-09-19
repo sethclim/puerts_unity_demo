@@ -9,6 +9,8 @@ namespace PuertsTest
 
         void Start()
         {
+            Debug.LogError("whattttt");
+
             jsEnv = new JsEnv();
 
             jsEnv.Eval(@"
